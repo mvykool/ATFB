@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'project';
+  title = 'project in angular';
+  tasks = [
+    'go to buy milk',
+    'learn angular',
+    'learn vue'
+  ];
 }
