@@ -1,0 +1,16 @@
+.search-bar {
+    display: flex;
+}
+
+.list {
+    display: flex;
+}
+
+p {
+    margin-right: 50px;
+    width: 10rem;
+}
+
+.done {
+    text-decoration: line-through;
+}

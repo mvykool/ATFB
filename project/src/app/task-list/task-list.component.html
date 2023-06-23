@@ -1,0 +1,10 @@
+<div class="search-bar">
+    <input type="text" #newTask>
+    <button (click)="add(newTask.value)">+</button>
+</div>
+
+<div *ngFor="let task of tasks" class="list">
+    <p [ngClass]="{ 'done': task.isDone }">{{task.name}}</p>
+    <button (click)="remove(task)">remove</button>
+    <button (click)="toggleDone(task)">done</button>
+</div>
